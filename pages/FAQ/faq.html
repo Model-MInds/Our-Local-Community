@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<title>FAQ - OLC</title>
+<link rel="shortcut icon" href="../images/download.png">
+<link rel="stylesheet" href="./faq.css">
+</head>
+<body>
+
+<button type="button" class="go-back-btn" onclick="history.back()"><i class="fa fa-arrow-left"></i> Go Back</button>
+
+<header class="header">
+    <h1>Frequently Asked Questions</h1>
+    <p class="subtitle">Find answers to common questions about our services</p>
+</header>
+
+
+<div class="Faq-container">
+    <div class="Faq-item">
+        <input type="checkbox" id="Faq1">
+        <label class="Faq-question" for="Faq1"><span class="question-number">1</span> What is your community center about?</label>
+        <div class="Faq-answer">
+            <p>Our community center is dedicated to empowering local residents through education, employment, and social support programs. We provide skill development, job placement assistance, and community welfare initiatives to ensure everyone has access to opportunities for a better future.</p>
+        </div>
+    </div>
+    <div class="Faq-item">
+        <input type="checkbox" id="Faq2">
+        <label class="Faq-question" for="Faq2"><span class="question-number">2</span> What services do you offer?</label>
+        <div class="Faq-answer">
+            <p>We provide a comprehensive range of services including: job placement and employment assistance, skill development workshops, vocational training, educational support for disadvantaged groups, community welfare programs, and environmental initiatives. Our goal is to create sustainable economic and social development in the community.</p>
+        </div>
+    </div>
+    <div class="Faq-item">
+        <input type="checkbox" id="Faq3">
+        <label class="Faq-question" for="Faq3"><span class="question-number">3</span> How can I volunteer?</label>
+        <div class="Faq-answer">
+            <p>We welcome volunteers of all backgrounds! You can register through our online volunteer form or visit us in person. Whether you have professional skills or simply want to contribute your time, there's a role for you. We offer flexible volunteering options and provide training as needed.</p>
+        </div>
+    </div>
+    <div class="Faq-item">
+        <input type="checkbox" id="Faq4">
+        <label class="Faq-question" for="Faq4"><span class="question-number">4</span> Is membership free?</label>
+        <div class="Faq-answer">
+            <p>Yes! Joining our community center is completely free. There are no membership fees for individuals seeking assistance or wishing to volunteer. We believe community support should be accessible to all.</p>
+        </div>
+    </div>
+    <div class="Faq-item">
+        <input type="checkbox" id="Faq5">
+        <label class="Faq-question" for="Faq5"><span class="question-number">5</span> How do I apply for jobs?</label>
+        <div class="Faq-answer">
+            <p>Browse our job listings on the website or visit our center. Fill out the application form with your details and qualifications. We'll review your application and contact you with suitable opportunities. Our team also provides resume assistance and interview coaching.</p>
+        </div>
+    </div>
+    <div class="Faq-item">
+        <input type="checkbox" id="Faq6">
+        <label class="Faq-question" for="Faq6"><span class="question-number">6</span> Who is eligible for assistance?</label>
+        <div class="Faq-answer">
+            <p>Our assistance programs are available to anyone in need, including low-income families, unemployed individuals, students, seniors, and persons with disabilities. We assess needs on a case-by-case basis. If you're struggling, don't hesitate to reach out—we're here to help.</p>
+        </div>
+    </div>
+    <div class="Faq-item">
+        <input type="checkbox" id="Faq7">
+        <label class="Faq-question" for="Faq7"><span class="question-number">7</span> How can businesses partner with us?</label>
+        <div class="Faq-answer">
+            <p>Businesses can contribute in multiple ways: financial donations, product sponsorships, in-kind donations (food, clothing, equipment), providing internships or job opportunities, or offering specialized training programs. Your contributions make a direct impact on our community's wellbeing. Contact us to discuss partnership opportunities.</p>
+        </div>
+    </div>
+    <div class="Faq-item">
+        <input type="checkbox" id="Faq8">
+        <label class="Faq-question" for="Faq8"><span class="question-number">8</span> What events and workshops do you organize?</label>
+        <div class="Faq-answer">
+            <p>We host regular workshops covering topics like digital literacy, business skills, health and wellness, parenting support, and environmental awareness. We also organize community events, awareness campaigns, and skill-development sessions. Check our events calendar for upcoming programs and registration details.</p>
+        </div>
+    </div>
+    <div class="Faq-item">
+        <input type="checkbox" id="Faq9">
+        <label class="Faq-question" for="Faq9"><span class="question-number">9</span> What are your contact details?</label>
+        <div class="Faq-answer">
+            <p>You can reach us via email, phone, or in person. Use the contact form below to send us a message, and we'll respond within 24 hours. You can also visit our center during working hours for direct assistance.</p>
+        </div>
+    </div>
+    <div class="Faq-item">
+        <input type="checkbox" id="Faq10">
+        <label class="Faq-question" for="Faq10"><span class="question-number">10</span> What are your operating hours?</label>
+        <div class="Faq-answer">
+            <p>We're open Monday to Friday from 9:00 AM to 6:00 PM, Saturday from 10:00 AM to 4:00 PM, and closed on Sundays (except for special events). Call ahead to confirm hours or to schedule an appointment.</p>
+        </div>
+    </div>
+
+</div>
+
+<section class="contact-section">
+  <h2>Still Have Questions?</h2>
+  <p>Can't find the answer you're looking for? Get in touch with us directly!</p>
+  
+  <form class="contact-form">
+    <div class="form-group">
+      <label for="name">Your Name *</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Email Address *</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+    </div>
+    
+    <div class="form-group">
+      <label for="subject">Subject *</label>
+      <select id="subject" name="subject" required>
+        <option value="">Select a subject</option>
+        <option value="job-inquiry">Job Inquiry</option>
+        <option value="volunteer">Volunteer Information</option>
+        <option value="assistance">Assistance Request</option>
+        <option value="partnership">Business Partnership</option>
+        <option value="feedback">Feedback/Suggestion</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="message">Message *</label>
+      <textarea id="message" name="message" placeholder="Please write your question or message here..." rows="5" required></textarea>
+    </div>
+    
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</section>
+
+</body>
+</html>
