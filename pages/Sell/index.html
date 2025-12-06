@@ -1,0 +1,66 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sell Items - OLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="shortcut icon" href="../images/download.png">
+  <link rel="stylesheet"href="style.css">
+</head>
+<body>
+<button type="button" class="go-back-btn" onclick="history.back()"><i class="fa fa-arrow-left"></i> Go Back</button>
+
+<div class="form-container">
+  <h2>Form Submission For Selling</h2>
+
+  <form>
+ <div class="form-group">
+      <label for="itemType">Item Type</label>
+      <select id="itemType" required>
+        <option value="item type">Select Item Type </option>
+        <option>Mobile Phones</option>
+        <option>Laptops</option>
+        <option>Clothes - Men</option>
+        <option>Clothes - Women</option>
+        <option>Books</option>
+         <option>Stationery</option>
+      </select>
+    </div>
+    <div class="form-group">
+<label for="image">
+  Upload Image:
+  <input type="file" id="image" accept="image/*" required>
+</label>
+    </div>
+    <div class="form-group" >
+         <label for="form of delivery">form of delivery</label>
+         <select  id="form of delivery" required>
+          <option value=""> Select type of delivery </option>
+        <option>Free Delivery</option>
+        <option>Paid Delivery</option> 
+         </select>
+    </div>
+
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea id="description" placeholder="Write details here..." required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="price">Price (if applicable)</label>
+      <input type="number" id="price" placeholder="Enter price or 0 if not applicable">
+    </div>
+
+    <div class="form-group">
+      <label for="contact">Contact Number</label>
+      <input type="text" id="contact" placeholder="Enter phone number" required>
+    </div>
+
+    <button type="submit" class="submit">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
