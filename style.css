@@ -297,6 +297,10 @@ nav ul.desktop-menu .dropdown:hover .dropdown-menu {
   align-items: center;
 }
 
+#product-3{
+  rotate: calc(180deg);
+}
+
 .sale-card {
     width: 230px;
     background: #fff;
