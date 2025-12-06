@@ -349,3 +349,44 @@ nav ul.desktop-menu .dropdown:hover .dropdown-menu {
     text-decoration: line-through;
     margin: 0;
 }
+
+footer {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.28rem;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.social-links {
+    margin-bottom: 0.5rem;
+}
+
+.social-links a {
+    color: #ffffff;
+    margin: 0 1rem;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.facebook:hover {
+    color: #3066db;
+}
+
+.github:hover {
+    color: #4e4d4d;
+}
+
+.instagram:hover {
+    color: #d31554;
+}
+
+.twitter:hover {
+    color: #099dfa;
+}
